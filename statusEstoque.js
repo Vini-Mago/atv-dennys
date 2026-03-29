@@ -1,4 +1,3 @@
 export function definirStatus(produto) {
-
-  return "Normal";
+  if (produto.estoque < 5) return "Crítico";
 }
